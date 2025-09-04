@@ -12,7 +12,6 @@ public class ElementManager {
 
     public final int DELAY = 10;
 
-
     public ElementManager click(SelenideElement element) {
         element
                 .shouldBe(visible, Duration.ofSeconds(DELAY))
